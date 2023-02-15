@@ -8,7 +8,7 @@ const MainNews = () => {
             <Image className="object-contain object-fill w-full h-full rounded-md" src={backgroud} alt={''} />
         </div>
         <div className="m-8 mb-5 ">
-            <p className="mb-4 text-lg font-bold text-center">
+            <p className="mb-4 text-3xl font-extrabold text-center">
             Topic of the news
             </p>
             <p className="mb-4 font-semibold text-justify">

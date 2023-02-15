@@ -4,6 +4,9 @@
 
 body {
     /* background:bg-white; */
-    background: linear-gradient(45deg, #b9a3a3,#d8d3d3, #f5f4f4, #bed5fd);
+    background: linear-gradient(90deg, rgba(255,255,254,1) 0%, rgba(108,188,255,1) 47%, rgba(255,255,255,1) 100%);    
     background-size: 400% 400%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }

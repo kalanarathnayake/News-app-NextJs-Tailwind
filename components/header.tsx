@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className="float-right gap-4 font-bold">
                     <Link href={``}>
-                        <div className="p-2 mx-5 text-lg text-white bg-red-500 rounded-md px-7">
+                        <div className="p-2 mx-5 text-lg text-white transition duration-500 transform bg-red-500 rounded-lg cursor-pointer px-7 ease hover:-translate-y-1"> 
                             Login
                         </div>
                     </Link>
