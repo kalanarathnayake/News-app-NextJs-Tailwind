@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import Header from '@/components/header'
 import MainNews from '@/components/mainNews'
 import Sidewidget from '@/components/sideWidget'
+import PostCard from '@/components/postCard'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
           <Header/>
           <MainNews/>
           <Sidewidget/>
+          <PostCard/>
       </div>
     </div>
   )

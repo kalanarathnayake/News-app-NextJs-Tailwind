@@ -3,7 +3,7 @@ import backgroud from "../public/bg.jpeg"
 
 const MainNews = () => {
     return (
-    <div className="grid grid-cols-2 col-span-2 m-8 ">
+    <div className="grid grid-cols-2 col-span-2 p-0 pb-12 mb-8 bg-white rounded-lg shadow-lg lg:p-8">
         <div className="border-4 rounded-lg border-stone-500">
             <Image className="object-contain object-fill w-full h-full rounded-md" src={backgroud} alt={''} />
         </div>
@@ -23,5 +23,6 @@ const MainNews = () => {
         </div>
     </div>)
 }
+//grid grid-cols-2 col-span-2 m-8 
 
 export default MainNews;

@@ -8,7 +8,7 @@ const recentNews = [
 
 const Sidewidget = () => {
     return (
-    <div className="p-8 m-8 bg-white rounded-lg shadow-lg">
+    <div className="col-span-1 p-8 pb-12 mb-8 bg-white rounded-lg shadow-lg lg:p-8">
         <h3 className="text-xl font-semibold border-b h-7">Recent Posts</h3>
         <div className="overflow-auto scroll-smooth">
             <div className="flex items-center w-full mt-4 mb-4">
@@ -67,5 +67,6 @@ const Sidewidget = () => {
     </div>
     );
 };
+
 
 export default Sidewidget;
